@@ -1,0 +1,13 @@
+#root{ 
+    height: 100vh; 
+    margin: 0; 
+    display: flex; 
+    flex-direction: column; 
+}
+
+footer{ 
+    text-align: center;
+    min-height: 50px; 
+    background: lightsalmon; 
+    margin-top: auto; 
+}

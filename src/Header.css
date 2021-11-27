@@ -1,0 +1,10 @@
+nav {
+    text-align: center;
+    min-height: 50px; 
+    background-color: lightsalmon;
+}
+
+a {
+    text-decoration: none;
+    padding-right: 1em;
+}
