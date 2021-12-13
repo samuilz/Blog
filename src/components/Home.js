@@ -1,10 +1,10 @@
-import '../Article.css';
+import '../Home.css';
 
-function Article(articleInfo) {
+function Home(articleInfo) {
     return (
         <section className="article-div">
             <h1 className="article-title">
-                Article title here
+                Post here
                 {/* {articleInfo.title} */}
             </h1>
 
@@ -20,4 +20,4 @@ function Article(articleInfo) {
     )
 };
 
-export default Article;
+export default Home;
