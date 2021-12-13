@@ -1,5 +1,6 @@
 import { Routes, Route } from 'react-router-dom';
 import Home from './Home';
+import Register from './register/Register';
 
 const Main = () => {
     return (
@@ -9,7 +10,7 @@ const Main = () => {
                 <Route path="/articles" element={<Home />} />
                 <Route path="/about-us" />
                 <Route path="/users/login" />
-                <Route path="/users/register" />
+                <Route path="/users/register" element={<Register />}/>
             </Routes>
         </main>
     );
