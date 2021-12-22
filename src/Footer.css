@@ -8,6 +8,7 @@
 footer{ 
     text-align: center;
     min-height: 50px; 
-    background: lightsalmon; 
+    background: #22b453; 
     margin-top: auto; 
+    color: #281501;
 }

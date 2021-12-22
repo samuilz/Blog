@@ -13,16 +13,13 @@ const Register = () => {
                 <input type="password" id="password" placeholder="Password" />
                 <input type="password" id="confirm-password" placeholder="Confirm password" />
                 <p>
-                    <label htmlFor="gender">Gender</label>
-                    <select>
+                    <label>Gender</label>
+                    <select className="gender">
                         <option>Male</option>
                         <option>Female</option>
                     </select>
                 </p>
-                <p className="p-wrap">
-                    <input type="checkbox" />
-                    <label htmlFor="">I agree to the Term and Conditions</label>
-                </p>
+                <input className="submit" type="submit" value="Register" />
             </fieldset>
         </form>
     );

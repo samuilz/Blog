@@ -1,0 +1,13 @@
+#login-password {
+    margin-bottom: 1em;
+}
+
+.login-submit {
+    display: flex;
+    margin: 0 auto;
+    vertical-align: middle;
+    justify-content: center;
+    width: 30%;
+    padding: 0.2em 0;
+}
+
