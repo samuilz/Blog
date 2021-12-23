@@ -7,8 +7,7 @@ const Main = () => {
     return (
         <main id="main-content">
             <Routes>
-                <Route path="/" />
-                <Route path="/articles" element={<Home />} />
+                <Route path="/" element={<Home />} />
                 <Route path="/about-us" />
                 <Route path="/users/login" element={<Login />}/>
                 <Route path="/users/register" element={<Register />}/>
